@@ -1,0 +1,157 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <title>Landing Page Practice</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/WyomingLogo.png" alt="State tourism Logo" width="200" height="75">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Visit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">History</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">About</a></li>
+                                <li><a class="dropdown-item" href="#">Famous Wyomingians</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Popular Sites</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex align-middle" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button id="search" class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+        </div>
+    </nav>
+
+    <div>
+        <img class="postcard" src="./assets/images/EW.png" class="img-fluid" alt="postcard">
+    </div>
+
+    <div id="tiles" class="row">
+        <div class="col-sm-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <img  src="./assets/images/CW.jpeg" class="card-img-top" alt="historic downtown">
+                    <h5 class="card-title">Shop Cheyenne</h5>
+                    <p class="card-text">Come shop in our historic downtown Cheyenne for your own little piece of
+                        Wyoming</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <img src="./assets/images/GTNP.webp" class="card-img-top" alt="National Park">
+                    <h5 class="card-title">National Parks</h5>
+                    <p class="card-text">Explore the vast beauty of Grand Teton and Wyoming's other national parks</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tiles" class="row">
+        <div class="col-sm-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <img src="./assets/images/GTR.webp" class="card-img-top" alt="...">
+                    <h5 class="card-title">Ski Wyoming</h5>
+                    <p class="card-text">Take in Wyoming's beautiful Winter at Grand Targhee and Big Sky Ski Resorts</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <img src="./assets/images/JHR.jpeg" class="card-img-top" alt="Jackson Hole Restaurant">
+                    <h5 class="card-title">Dine with us</h5>
+                    <p class="card-text">Dine with the breathtaking views of Jackson Hole and savor every single bite
+                    </p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="quote" class="row mx-auto">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="quote-title">Welcome Home</h1>
+                <blockquote class="blockquote mb-0">
+                    <p class="quote-text">
+                        My favorite part of Wyoming is as soon as I hit the border. I'm home, where life is good.
+                    </p>
+                    <footer class="blockquote-footer">Rulon Gardner</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix">
+        <img src="./assets/images/TW.webp" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3" alt="cowboys">
+        <p class="sbs-text align-middle">Come visit us and take home memories that will last for a lifetime. Life is beautiful here all four seasons.
+            Wyoming has activities for all ages and every type of person. Whether You love nature, fine food,
+            adventure, shopping, or just a bit of good old fashoned relaxation, we have something that
+            you are guarenteed to love. We may be thw 10th largest state, but we hope to become first in your heart.
+            So what are you waiting for? We are happy to have you.
+        </p>
+      </div>
+
+      <div id="bottom-postcard" class="card bg-dark text-white">
+        <img src="./assets/images/WW.jpeg" class="card-img" alt="river">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Forever West</h5>
+          <p class="card-text">We'll see you soon</p>
+        </div>
+      </div>
+
+      <div id="page-footer" class="navbar navbar-fixed-bottom  navbar-dark  bg-dark">
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
